@@ -1,121 +1,289 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olga Zelenko</title>
-    <meta name="Olga Zelenko Online Portfolio" content="Olga Zelenko Portfolio" />
-    <link rel="stylesheet" type="text/css" href="css/stylesheet-dark.css" />
-    <link href='http://fonts.googleapis.com/css?family=Hind:300|Montserrat:700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="Olga Zelenko Online Portfolio" contentOlga Zelenko Portfolio" />
+     <link rel="stylesheet" type="text/css" href="css/stylesheet-dark.css" />
+    <link href='http://fonts.googleapis.com/css?family=Martel:200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav role="nav">
-        <div class="container cf">
-            <div class="left-nav">About <i class="fa fa-caret-down"></i></i></div>
+<nav role="navigation">
+    <div class="nav-container clearfix">
 
-                <h1>Olga Zelenko</h1>
-            <ul class="right-nav">
-                        <li>
-                            <a href="www.linkedin.com/in/olga-zelenko" title="linkedin link"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/zolga" title="github link"><i class="fa fa-github"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.pinterest.com/olgaz1984/" title="pinterest link"><i class="fa fa-pinterest"></i></a>
-                        </li>
-            </ul>
-        </div>
-    </nav>
+            <h1><a href="index.html">Olga Zelenko</a></h1>
+        <h2>Portfolio Website</h2>
 
-    <main role="main">
-    <div class="overlay-view hidden">
-        <div class="close"><i class="fa fa-times"></i></div>
-        <div class="container project-details">
-              <div class="project-image">
-                <div class="image-container hidden">
-                  <img src="" alt="" title="">
-                </div>
-              </div>
-              <div class="text">
-                <h3></h3>
-                <div class="project-description"><p></p></div>
-                <div class="project-link"><a href=""></a></div>
-              </div>
-          </div>
+        <ul class="menu-items">
+            <li>
+                <a href="/about" class="show-projects">Projects</a>
+            </li>
+            <li>
+                <a href="" class="about-user">About</a>
+            </li>
+        </ul>
+
+        <ul class="media-icons">
+                    <li>
+                        <a href="www.linkedin.com/in/olga-zelenko" title="linkedin link"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/zolga" title="github link"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/olgaz1984/" title="pinterest link"><i class="fa fa-pinterest"></i></a>
+                    </li>
+        </ul>
     </div>
-        <div class="container">
+</nav>
+<div class="about-section fade-out remove hidden">
 
-            <div class="about cf">
-                <div class="container">
+        <div class="about-image-placeholder"></div>
+    <div class="about-details">
+        <h3>
+           I am a Full Stack Engineer, and I love it 💗 
+        </h3>
+        I am a Full Stack Engineer, and I love it 💗 In my free time I love to learn new coding skills, to photoshoot , and to have a good and quality time with family and friends.
+    </div>
 
-                    <div class="about-image-placeholder"></div>
-                    <div class="about-text">
-                        <h2>
-                         I am a Full Stack Engineer, and I love it 💗 
-                        </h2>
-                        I am a Full Stack Engineer, and I love it 💗 In my free time I love to learn new coding skills, to photoshoot , and to have a good and quality time with family and friends.
+</div>
+<div class="project-container">
+    <!-- Hidden Project View -->
+    <div class="project-view">
+        <div class="close-window"><i class="fa fa-times"></i></div>
+        <div class="project-contents">
+            <div class="project-view-container">
+                <div class="project-image">
+                    <img src="">
+                </div>
+                <div class="project-details">
+                    <h2></h2>
+                    <div class="project-paragraph"></div>
+                    <div class="project-link">
+                        <a href=""></a>
                     </div>
-
                 </div>
             </div>
-            <ul class="projects cf" id="grid">
-                <li class="grid-item" data-id="1">
-                    <a href="#/1">
-                        <div class="project-container">
-                            <img src="images/olgaz_nyc_quiz_welcome.png" alt="olgaz_nyc_quiz_welcome.png" title="olgaz_nyc_quiz_welcome.png">
-                            <div class="overlay">
-                                <div>New York City Quiz</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="grid-item" data-id="2">
-                    <a href="#/2">
-                        <div class="project-container">
-                            <img src="images/Screenshot_20180319-142542.png" alt="Screenshot_20180319-142542.png" title="Screenshot_20180319-142542.png">
-                            <div class="overlay">
-                                <div>Just Java </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="grid-item" data-id="3">
-                    <a href="#/3">
-                        <div class="project-container">
-                            <img src="images/olgaz_basketball_court_counter.png" alt="olgaz_basketball_court_counter.png" title="olgaz_basketball_court_counter.png">
-                            <div class="overlay">
-                                <div>Android - Score Keeper app</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="grid-item" data-id="4">
-                    <a href="#/4">
-                        <div class="project-container">
-                            <img src="images/olgaZelenko_birthdayCard.png" alt="olgaZelenko_birthdayCard.png" title="olgaZelenko_birthdayCard.png">
-                            <div class="overlay">
-                                <div>Android - Happy Birthday</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="grid-item" data-id="5">
-                    <a href="#/5">
-                        <div class="project-container">
-                            <img src="images/Screenshot_20180301-114543.png" alt="Screenshot_20180301-114543.png" title="Screenshot_20180301-114543.png">
-                            <div class="overlay">
-                                <div>Udacity </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            </ul>
         </div>
-    </main>
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    </div>
+    <!-- Left Navigation -->
+    <ul class="grid effect" id="grid">
+            <li class="item">
+                <a href="#/1">
+                    <img src="images/olgaz_nyc_quiz_welcome.png" alt="olgaz_nyc_quiz_welcome.png" title="olgaz_nyc_quiz_welcome.png">
+                    <div class="show-overlay">
+                        <div class="details">
+                            <h3>New York City Quiz</h3>
+                            View
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#/2">
+                    <img src="images/Screenshot_20180319-142542.png" alt="Screenshot_20180319-142542.png" title="Screenshot_20180319-142542.png">
+                    <div class="show-overlay">
+                        <div class="details">
+                            <h3>Just Java </h3>
+                            View
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#/3">
+                    <img src="images/olgaz_basketball_court_counter.png" alt="olgaz_basketball_court_counter.png" title="olgaz_basketball_court_counter.png">
+                    <div class="show-overlay">
+                        <div class="details">
+                            <h3>Android - Score Keeper app</h3>
+                            View
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#/4">
+                    <img src="images/olgaZelenko_birthdayCard.png" alt="olgaZelenko_birthdayCard.png" title="olgaZelenko_birthdayCard.png">
+                    <div class="show-overlay">
+                        <div class="details">
+                            <h3>Android - Happy Birthday</h3>
+                            View
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#/5">
+                    <img src="images/Screenshot_20180301-114543.png" alt="Screenshot_20180301-114543.png" title="Screenshot_20180301-114543.png">
+                    <div class="show-overlay">
+                        <div class="details">
+                            <h3>Udacity </h3>
+                            View
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="js/main.min.js"></script>
+<script>
+    $(window).load(function() {
+
+
+        new AnimOnScroll( document.getElementById( 'grid' ), {
+            minDuration : 0.4,
+            maxDuration : 0.7,
+            viewportFactor : 0.2
+        } );
+
+
+        var aboutUser = document.querySelector('.about-user');
+        var projects = document.querySelector('.show-projects');
+        var projectItem = document.querySelectorAll('.item a');
+        var projectView = document.querySelector('.project-view');
+        var aboutSection = document.querySelector('.about-section');
+        var gridContainer = document.querySelector('.project-container');
+        var $titleContent = $('h1').text();
+        var $title = $('h1');
+        var $projectData = "";
+
+        var medium = false,
+            large  = false,
+            length;
+
+        if($titleContent.indexOf(' ') != -1) {
+            $titleContent = $titleContent.split(' ');
+            length = $titleContent.length;
+        } else {
+            $titleContent.length = 1;
+            $titleContent = [$titleContent];
+            length = 1;
+        }
+
+
+        for(var i = 0; i < length; i++) {
+            if($titleContent[i].length > 7 && $titleContent[i].length <= 9) {
+                medium = true;
+            } else if($titleContent[i].length > 9) {
+                large = true;
+            }
+        }
+
+        if(medium === true) {
+            $title.addClass('title-medium');
+        }
+
+        if(large === true) {
+            $title.addClass('title-large');
+        }
+
+
+        aboutUser.addEventListener('click', function(e) {
+            e.preventDefault();
+            hideProject();
+            gridContainer.classList.add("slide-right");
+            aboutSection.classList.remove('hidden');
+            setTimeout(function(){
+                aboutSection.classList.remove("fade-out");
+                aboutSection.classList.remove("remove");
+                gridContainer.classList.remove("float-right");
+            }, 500);
+        });
+
+        projects.addEventListener('click', function(e) {
+            e.preventDefault();
+            hideProject();
+            aboutSection.classList.add("fade-out");
+            setTimeout(function(){
+                aboutSection.classList.add("remove");
+                gridContainer.classList.remove("slide-right");
+            }, 500);
+        });
+
+
+        var path = window.location.href;
+        if(path.indexOf("#") >= 0) {
+            getProject();
+        }
+
+
+        addEventListener('hashchange', function () {
+            getProject();
+        });
+
+        function getProject() {
+            var id = getProjectId();
+            if($projectData == "") {
+                $.ajax({
+                    url: 'data/data.json',
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function (data, status) {
+                        if (status === "success") {
+                            $projectData = data;
+                            showProject($projectData, id);
+                        }
+                    }
+                });
+            } else {
+                showProject($projectData, id);
+            }
+        }
+
+        function getProjectId() {
+            var hashPath =  window.location.href;
+            hashPath = hashPath.split('/');
+            var hashLength = hashPath.length - 1;
+            var id = hashPath[hashLength];
+            return id;
+        }
+
+        function showProject(data, id) {
+            var $data = data;
+            jQuery.each($data.project, function(i, val) {
+                if(i == id) {
+                    console.log(val['cover-image']);
+                    $('.project-image img').attr('src', './images/'+val['cover-image']);
+                    $('.project-details h2').html(val.title);
+                    $('.project-paragraph').html(val.description);
+                    $('.project-link a').attr('href', val.link);
+                    $('.project-link a').html(val.link);
+                }
+            });
+
+            var height = window.innerHeight;
+            $('.project-contents').css('height', height);
+            $('.project-contents .project-image').imgLiquid();
+            if($(window).width() < 1025) {
+                $("html, body").animate({ scrollTop: 200 }, "slow");
+            } else {
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+            }
+            $('.project-view').addClass('project-show');
+        }
+
+        function hideProject() {
+            window.history.pushState('', '', 'index.html');
+            $('.project-container').css('position', 'relative');
+            $('.project-view').removeClass('project-show');
+        }
+
+        $('.close-window').on('click', hideProject);
+
+        $( window ).resize(function() {
+            if($(window).width() < 1025) {
+                $('.project-container').css('position', 'relative');
+            }
+        });
+
+    });
+
+
+</script>
 </body>
 </html>
